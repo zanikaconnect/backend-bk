@@ -14,7 +14,9 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'http://localhost:5000',
-    'https://zanika-web-mvp-ft.vercel.app'
+    'https://zanika-web-mvp-ft.vercel.app',
+    'https://www.zanika.in',
+    'https://zanika.in'
   ],
   credentials: true
 }));
